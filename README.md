@@ -45,7 +45,8 @@ After a game concludes, players can choose to restart the game or exit.
 
 1. Player Input: Players enter a number between 1 and 9 to place their mark.
 
-2. Valid Moves: If a player selects an invalid number (outside the 1-9 range) or a cell that's already occupied, they will be prompted to try again.
+2. Valid Moves: If a player selects an invalid number (outside the 1-9 range) or
+   a cell that's already occupied, they will be prompted to try again.
 
 ## Key Features
 
