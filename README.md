@@ -16,7 +16,7 @@ To compile the Tic-Tac-Toe game, follow these steps:
 2. **Compile the Project**: Use the following `g++` command to compile the project:
 
     ```
-    g++ ttt.cpp ttt_functions.cpp 
+    g++ ttt.cpp ttt_functions.cpp -o ttt
     ```
 
     - `ttt.cpp` and `ttt_functions.cpp`: Source files to compile.
