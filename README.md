@@ -6,6 +6,28 @@
 - **`ttt_functions.cpp`**: Contains implementations for the game functions.
 - **`ttt.hpp`**: Header file with function declarations and includes.
 
+This project is a console-based implementation of the classic Tic-Tac-Toe game, written in Cpp using functions and loops. Two players take turns marking their symbols ("X" or "O") on a 3x3 grid. The goal is to be the first player to get three marks in a row—either horizontally, vertically, or diagonally. If all nine spaces are filled without a winner, the game ends in a draw.
+
+How the Game Works
+Starting the Game:
+
+The game begins by displaying an empty 3x3 grid, where each cell is numbered from 1 to 9. Players will use these numbers to choose where to place their mark.
+Player Turns:
+
+Player 1 uses "X" and Player 2 uses "O". Each player takes turns selecting a number (1-9) corresponding to a cell. The game ensures that the selected cell is valid and unoccupied.
+Checking for a Winner:
+
+After each move, the game checks for a winner by evaluating all possible winning combinations (rows, columns, and diagonals). If one player gets three of their marks in a row, they win.
+Game End:
+
+The game ends when either a player wins or all cells are filled, resulting in a draw.
+Restart or Exit:
+
+After the game ends, players have the option to restart the game or exit.
+Controls
+Player Input: Players choose a number between 1 and 9 to place their mark on the grid.
+Valid Moves: If a player selects a number outside the valid range or an occupied cell, they will be prompted to enter a valid number.
+
 
 ## How to Compile
 
