@@ -15,14 +15,19 @@ The game displays an empty 3x3 grid, with each cell numbered from 1 to 9.
 Players use these numbers to decide where to place their mark.
 
 ### Player Turns:
+
 Player 1 is "X" and Player 2 is "O".
 
 Players take turns selecting a number (1-9) to place their mark on the grid.
 
 The game ensures the input is valid (number within range and unoccupied cell).
 
-### Winning the Game: After each turn, the game checks for any of the following winning combinations:
+### Winning the Game: 
+
+After each turn, the game checks for any of the following winning combinations:
+
 Three marks in a row (horizontally, vertically, or diagonally).
+
 If a player achieves a winning combination, they are declared the winner.
 
 ### Game End:
@@ -33,12 +38,14 @@ One player wins, or
 
 The board is filled, and there is no winner (draw).
 
-### Restart or Exit: After a game concludes, players can choose to restart the game or exit.
-Controls
+### Restart or Exit: 
+After a game concludes, players can choose to restart the game or exit.
 
-### Player Input: Players enter a number between 1 and 9 to place their mark.
+### Controls
 
-### Valid Moves: If a player selects an invalid number (outside the 1-9 range) or a cell that's already occupied, they will be prompted to try again.
+1. Player Input: Players enter a number between 1 and 9 to place their mark.
+
+2. Valid Moves: If a player selects an invalid number (outside the 1-9 range) or a cell that's already occupied, they will be prompted to try again.
 
 ### Key Features
 
