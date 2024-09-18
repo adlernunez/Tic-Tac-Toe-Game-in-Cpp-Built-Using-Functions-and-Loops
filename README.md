@@ -6,27 +6,39 @@
 - **`ttt_functions.cpp`**: Contains implementations for the game functions.
 - **`ttt.hpp`**: Header file with function declarations and includes.
 
-This project is a console-based implementation of the classic Tic-Tac-Toe game, written in Cpp using functions and loops. Two players take turns marking their symbols ("X" or "O") on a 3x3 grid. The goal is to be the first player to get three marks in a row—either horizontally, vertically, or diagonally. If all nine spaces are filled without a winner, the game ends in a draw.
-
-How the Game Works
+#How the Game Works
 Starting the Game:
 
-The game begins by displaying an empty 3x3 grid, where each cell is numbered from 1 to 9. Players will use these numbers to choose where to place their mark.
+The game displays an empty 3x3 grid, with each cell numbered from 1 to 9.
+Players use these numbers to decide where to place their mark.
 Player Turns:
 
-Player 1 uses "X" and Player 2 uses "O". Each player takes turns selecting a number (1-9) corresponding to a cell. The game ensures that the selected cell is valid and unoccupied.
-Checking for a Winner:
+Player 1 is "X" and Player 2 is "O".
+Players take turns selecting a number (1-9) to place their mark on the grid.
+The game ensures the input is valid (number within range and unoccupied cell).
+Winning the Game:
 
-After each move, the game checks for a winner by evaluating all possible winning combinations (rows, columns, and diagonals). If one player gets three of their marks in a row, they win.
+After each turn, the game checks for any of the following winning combinations:
+Three marks in a row (horizontally, vertically, or diagonally).
+If a player achieves a winning combination, they are declared the winner.
 Game End:
 
-The game ends when either a player wins or all cells are filled, resulting in a draw.
+The game ends when:
+One player wins, or
+The board is filled, and there is no winner (draw).
 Restart or Exit:
 
-After the game ends, players have the option to restart the game or exit.
+After a game concludes, players can choose to restart the game or exit.
 Controls
-Player Input: Players choose a number between 1 and 9 to place their mark on the grid.
-Valid Moves: If a player selects a number outside the valid range or an occupied cell, they will be prompted to enter a valid number.
+Player Input:
+Players enter a number between 1 and 9 to place their mark.
+Valid Moves:
+If a player selects an invalid number (outside the 1-9 range) or a cell that's already occupied, they will be prompted to try again.
+Key Features
+Built using functions and loops (no classes or objects).
+Simple text-based gameplay.
+Input validation ensures a smooth experience.
+
 
 
 ## How to Compile
