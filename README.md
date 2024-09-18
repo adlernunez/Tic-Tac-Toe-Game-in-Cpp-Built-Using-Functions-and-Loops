@@ -6,7 +6,7 @@
 - **`ttt_functions.cpp`**: Contains implementations for the game functions.
 - **`ttt.hpp`**: Header file with function declarations and includes.
 
-#How the Game Works
+# How the Game Works
 **Starting the Game**:
 The game displays an empty 3x3 grid, with each cell numbered from 1 to 9.
 Players use these numbers to decide where to place their mark.
